@@ -1,0 +1,19 @@
+{
+    "name": "Boss-Helper",
+    "options": {
+        "niceName": "Boss-Helper",
+        "guiName": "Boss-Helper",
+        "settingsFile": "config.json",
+        "settingsMigrator": "settings_migrator.js",
+        "settingsVersion": 10
+    },
+    "author": "ZC / mopihu / Owyn/ Lambda11",
+    "description": "Указывает NPC (Monster / World King / wandering merchant), который появится в видимом диапазоне, отправит соответствующий текст и отметит позицию",
+    "servers": ["https://raw.githubusercontent.com/GrafNikola/Boss-Helper/master/"],
+    "supportUrl": "https://github.com/GrafNikola/Boss-Helper/issues",
+    "dependencies": {
+        "notifier": "https://raw.githubusercontent.com/SerenTera/tera-notifier/master/module.json",
+        "tera-message": "https://raw.githubusercontent.com/tera-mod/tera-message/master/module.json"
+    },
+    "version": "87.05"
+}
